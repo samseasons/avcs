@@ -2,8 +2,8 @@
 
 import sys
 
-def bcdiff (a, b):
-    return []
+def diff (last, past):
+    return [0]
 
-def bcpatch (a, b):
-    return []
+def patch (last, p):
+    return last

@@ -2,10 +2,10 @@
 
 import fs from 'fs'
 
-function bcdiff (a, b) {
-  return []
+function diff (last, past) {
+  return [0]
 }
 
-function bcpatch (a, b) {
-  return []
+function patch (last, p) {
+  return last
 }
